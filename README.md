@@ -53,7 +53,7 @@ OneSignal.initialize(onSignalId);
 OneSignal.Notifications.requestPermission(true);
 ```
 
-## Execultando o Projeto
+## Executando o Projeto
 
 ```bash
 expo start
