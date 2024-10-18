@@ -27,6 +27,14 @@ cd rn-shoes-app
 npm install
 ```
 
+## Executando o Projeto
+
+Para executar o projeto em um emulador iOS ou Android, ou em um dispositivo real, use:
+
+```bash
+expo start
+```
+
 ## Configurando o OneSignal
 
 Para o correto funcionamento do OneSignal no projeto, é necessário fornecer as chaves de API específicas para Android e iOS. Siga os passos abaixo para configurar o OneSignal no arquivo `app.tsx` do projeto.
@@ -51,10 +59,4 @@ const onSignalId =
 
 OneSignal.initialize(onSignalId);
 OneSignal.Notifications.requestPermission(true);
-```
-
-## Executando o Projeto
-
-```bash
-expo start
 ```
