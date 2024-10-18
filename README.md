@@ -6,8 +6,8 @@
 
 - [Recursos](#recursos)
 - [Instalação](#instalação)
-- [Configurando o OneSignal](#configurando-o-onesignal)
 - [Executando o Projeto](#executando-o-projeto)
+- [Configurando o OneSignal](#configurando-o-onesignal)
 
 ## Recursos
 
