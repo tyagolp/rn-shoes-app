@@ -1,4 +1,4 @@
-import { StatusBar } from "react-native";
+import { Platform, StatusBar } from "react-native";
 import { NativeBaseProvider } from "native-base";
 import {
   useFonts,
@@ -16,7 +16,10 @@ import { NotificationClickEvent, OneSignal } from "react-native-onesignal";
 import { tagUserInfoCreate } from "./src/notifications/notificationsTags";
 import { useEffect } from "react";
 
-OneSignal.initialize("10eeaeaf-2c5e-45d7-a767-6dc03b972144");
+const onSignalIdd =
+  Platform.OS === "android" ? "ANDROID_APP_KEY" : "IOS_APP_KEY";
+
+OneSignal.initialize(onSignalIdd);
 OneSignal.Notifications.requestPermission(true);
 
 export default function App() {
