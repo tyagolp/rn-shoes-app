@@ -6,12 +6,8 @@
 
 - [Recursos](#recursos)
 - [Instalação](#instalação)
+- [Configuração OnSignal](#configuração-onsignal)
 - [Executando o Projeto](#executando-o-projeto)
-- [Configuração](#configuração)
-- [Configuração de Deep Linking](#configuração-de-deep-linking)
-- [Notificações Push com OneSignal](#notificações-push-com-onesignal)
-- [Contribuições](#contribuições)
-- [Licença](#licença)
 
 ## Recursos
 
@@ -31,7 +27,7 @@ cd rn-shoes-app
 npm install
 ```
 
-## OneSignal
+## Configuração OneSignal
 
 Para o correto funcionamento do OneSignal no projeto, é necessário fornecer as chaves de API específicas para Android e iOS. Siga os passos abaixo para configurar o OneSignal no arquivo `app.tsx` do projeto.
 
@@ -55,4 +51,10 @@ const onSignalId =
 
 OneSignal.initialize(onSignalId);
 OneSignal.Notifications.requestPermission(true);
+```
+
+## Execultando o Projeto
+
+```bash
+expo start
 ```
