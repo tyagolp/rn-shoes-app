@@ -31,7 +31,7 @@ cd rn-shoes-app
 npm install
 ```
 
-## Configuração do OneSignal
+## OneSignal
 
 Para o correto funcionamento do OneSignal no projeto, é necessário fornecer as chaves de API específicas para Android e iOS. Siga os passos abaixo para configurar o OneSignal no arquivo `app.tsx` do projeto.
 
@@ -41,7 +41,7 @@ Para o correto funcionamento do OneSignal no projeto, é necessário fornecer as
 - No painel do seu aplicativo, vá até as configurações de plataforma.
 - Copie as chaves `ANDROID_APP_KEY` para Android e `IOS_APP_KEY` para iOS.
 
-### 2. Adicione as chaves no arquivo `app.tsx`
+### 2. Adicione as chaves no arquivo `App.tsx`
 
 No arquivo `app.tsx` do projeto, adicione as chaves da seguinte forma:
 
