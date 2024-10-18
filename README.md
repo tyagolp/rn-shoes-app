@@ -6,7 +6,7 @@
 
 - [Recursos](#recursos)
 - [Instalação](#instalação)
-- [Configuração OnSignal](#configuração-onsignal)
+- [Configurando o OneSignal](#configurando-o-onesignal)
 - [Executando o Projeto](#executando-o-projeto)
 
 ## Recursos
@@ -27,7 +27,7 @@ cd rn-shoes-app
 npm install
 ```
 
-## Configuração OneSignal
+## Configurando o OneSignal
 
 Para o correto funcionamento do OneSignal no projeto, é necessário fornecer as chaves de API específicas para Android e iOS. Siga os passos abaixo para configurar o OneSignal no arquivo `app.tsx` do projeto.
 
